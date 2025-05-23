@@ -203,3 +203,97 @@ footer {
     height: 100vh;
 }
 
+/* Responsividade para tablets e celulares */
+@media (max-width: 1024px) {
+  header {
+    padding: 35px 40px 0 40px;
+  }
+
+  .headermain h1 {
+    font-size: 48px;
+  }
+
+  .headermain p {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .txthistoria {
+    font-size: 36px;
+  }
+
+  .historia p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .contato {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+  }
+
+  .superior {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .historia {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .esqhistoria, .dirhistoria {
+    width: 100%;
+    padding: 20px;
+  }
+
+  footer {
+    height: auto;
+    padding: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .right iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .imgcafe {
+    height: 200px;
+    background-position: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 28px;
+  }
+
+  .headermain h1 {
+    font-size: 36px;
+  }
+
+  .headermain p {
+    font-size: 14px;
+  }
+
+  .txthistoria, .contato {
+    font-size: 28px;
+  }
+
+  .info {
+    font-size: 16px;
+  }
+}
